@@ -5,7 +5,7 @@ import logo from "../Assets/logo.png";
 
 function Navbar() {
   return (
-    <div>
+    <div className="navbar">
       <div className="title">
         <img src={logo} alt="logo" />
         <h2>Kotebe 7th Day Adventist Church</h2>
