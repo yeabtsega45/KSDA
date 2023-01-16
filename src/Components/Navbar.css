@@ -1,0 +1,29 @@
+.title {
+    display: flex;
+    justify-content: center;
+}
+.title > h2 {
+    height: 22px;
+    color: orange;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.title > img {
+    width: 6%;
+    object-fit: cover;
+    margin: 0px 10px;
+}
+nav {
+    display: flex;
+    background-color: orange;
+    margin: 0;
+    justify-content: left;
+    padding: 16px 32px
+}
+nav > a {
+    border-left: 0.5px solid white;
+    color: white;
+    margin-right: 20px;
+    padding: 10px;
+    text-decoration-line: none;
+}
