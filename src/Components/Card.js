@@ -4,7 +4,7 @@ import "./Card.css";
 function Card({ image, title, date, description }) {
   return (
     <div className="card">
-      <img src={image} className="images" alt="images" />
+      <img src={image} className="card_image" alt="images" />
       <div className="card_text">
         <h3>{title}</h3>
         <p>{date}</p>
@@ -14,4 +14,4 @@ function Card({ image, title, date, description }) {
   );
 }
 
-export default Post;
+export default Card;
