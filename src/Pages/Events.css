@@ -1,10 +1,10 @@
-.events > img {
+.header > img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     /* opacity: 0.5; */
 }
-.events > h1 {
+.header > h1 {
     color: #005ea2;
     border-bottom: 1px solid #005ea2;
     font-family: Arial, Helvetica, sans-serif;
@@ -18,6 +18,5 @@
     /* justify-content: center; */
     padding: 20px;
     /* align-items: center; */
-    /* justify-content: space-evenly; */
-    
+    /* justify-content: space-evenly; */ 
 }
