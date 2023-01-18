@@ -2,10 +2,10 @@ import React from "react";
 import "./Events.css";
 import img1 from "../Assets/frontpage.jpg";
 import Card from "../Components/Card";
-import event_img1 from "../Assets/event1.jpg";
-import event_img2 from "../Assets/event2.jpg";
-import event_img3 from "../Assets/event3.jpg";
-import event_img4 from "../Assets/event4.jpg";
+import event_img1 from "../Assets/event1.jpeg";
+import event_img2 from "../Assets/event2.jpeg";
+import event_img3 from "../Assets/event3.jpeg";
+import event_img4 from "../Assets/event4.jpeg";
 
 function Events() {
   return (

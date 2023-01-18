@@ -12,9 +12,12 @@
     font-weight: bolder;
 }
 .event_cards {
-    display: flex;
-    width:90%;
+    /* display: flex; */
+    width:80%;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     padding: 20px;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+    
 }
