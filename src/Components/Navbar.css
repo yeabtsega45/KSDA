@@ -1,21 +1,16 @@
 .navbar {
     display: flex;
-    /* padding: 16px 32px; */
     background-color: #005ea2;
     margin: 0px;
 }
 .title {
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     margin: 5px;
-    /* width: 40%; */
 }
 .title > h2 {
     width: 50%;
     height: 22px;
     color: white;
-    /* margin-right: 10px; */
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,20 +19,20 @@
     object-fit: cover;
     margin: 0px 15px;
     background-color: white;
-    /* margin-top: -15px; */
+    border-radius: 50%;
 }
 nav {
     display: flex;
-    /* padding: 16px 32px; */
     margin: 0;
-    /* justify-content: center; */
     align-items: center;
     width: 100%;
 }
 nav > a {
-    border-left: 0.5px solid white;
     color: white;
     margin-right: 20px;
     padding: 10px;
     text-decoration-line: none;
+}
+a:hover {
+    color: lightblue;
 }

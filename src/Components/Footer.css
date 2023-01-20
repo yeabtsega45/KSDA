@@ -21,6 +21,7 @@
     object-fit: cover;
     margin: 0px 10px;
     background-color: white;
+    border-radius: 50%;
 }
 .footer_body {
     display: flex;
