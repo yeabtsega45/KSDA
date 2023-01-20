@@ -21,8 +21,9 @@
     transform: scale(1.8);
     color: red;
     background-color: white;
-    padding: 0px;
     position: absolute;
     top: 30%;
     left: 50%;
+    /* padding: 0px; */
+    /* height: auto; */
 }

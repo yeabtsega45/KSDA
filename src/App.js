@@ -4,6 +4,7 @@ import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Events from "./Pages/Events";
 import Videos from "./Pages/Videos";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" element={<Recipes />} />
         <Route path="/contact" element={<Questions />} /> */}
       </Routes>
+      <Footer />
     </>
   );
 }
