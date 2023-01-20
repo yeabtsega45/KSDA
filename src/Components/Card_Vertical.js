@@ -1,16 +1,15 @@
 import React from "react";
 import "./Card_Vertical.css";
 
-function Post({ image, title, description }) {
+function CardVertical({ image, title }) {
   return (
     <div className="card_vertical">
       <img src={image} className="cardvertical_image" alt="images" />
       <div>
         <h3>{title}</h3>
-        <p>{description}</p>
       </div>
     </div>
   );
 }
 
-export default Post;
+export default CardVertical;
