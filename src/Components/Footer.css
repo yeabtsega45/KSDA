@@ -5,23 +5,28 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .footer_logo {
     display: flex;
     justify-content: center;
-    /* background-color: #eef3f8; */
 }
 .footer_logo > h2 {
     height: 22px;
     color: white;
     margin-right: 10px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .footer_logo > img {
     width: 10%;
     object-fit: cover;
     margin: 0px 10px;
     background-color: white;
+}
+.footer_body {
+    display: flex;
+}
+.footer_contact {
+    margin-right: 200px;
 }
 .info {
     display: flex;
@@ -30,8 +35,12 @@
 }
 .icon {
     margin: 10px 10px;
-    background-color: #005ea2;
     transform: scale(1.2);
     color: whitesmoke;
-    padding: 0;
+}
+.footer_other {
+    margin-left: 200px;
+}
+.copyright {
+    color: #c1c0c0;
 }

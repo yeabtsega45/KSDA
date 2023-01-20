@@ -1,6 +1,6 @@
 import React from "react";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import EmailIcon from "@material-ui/icons/Email";
+import YouTubeIcon from "@material-ui/icons/YouTube";
 import TelegramIcon from "@material-ui/icons/Telegram";
 import "./Footer.css";
 import PersonIcon from "@material-ui/icons/Person";
@@ -15,31 +15,47 @@ function Footer() {
         <img src={logo} alt="logo" />
         <h2>Kotebe 7th Day Adventist Church</h2>
       </div>
-      <div>
-        <div className="info">
-          <PersonIcon />
-          <p>Pastor Mekit</p>
+      <div className="footer_body">
+        <div className="footer_contact">
+          <h4>Contact</h4>
+          <div className="info">
+            <PersonIcon />
+            <p>Pastor Mekit</p>
+          </div>
+          <div className="info">
+            <PhoneIcon />
+            <p>+251963137715</p>
+          </div>
+          <div>
+            <a href="https://t.me/OFFICIALKotebeSDAChurch">
+              <TelegramIcon className="icon" />
+            </a>
+            <a href="https://www.facebook.com/kotebesdachurch/">
+              <FacebookIcon className="icon" />
+            </a>
+            <a href="https://www.youtube.com/@officialkotebesdachurch9361">
+              <YouTubeIcon className="icon" />
+            </a>
+          </div>
         </div>
-        <div className="info">
-          <PhoneIcon />
-          <p>+251963137715</p>
+        <div className="footer_location">
+          <h4>Location</h4>
+          <div className="info">
+            <LocationOnIcon />
+            <p>Addis Ababa, Yeka, Kotebe</p>
+          </div>
         </div>
-        <div className="info">
-          <LocationOnIcon />
-          <p>Addis Ababa, Yeka, Kotebe</p>
+        <div className="footer_other">
+          <h4>የአምልኮ ጊዜ</h4>
+          <p>ረቡዕ | ምሽት12:00</p>
+          <p>አርብ | ምሽት12:00</p>
+          <p>ቅዳሜ | ሙሉቀን</p>
         </div>
       </div>
-      <div>
-        <a href="https://www.facebook.com/">
-          <FacebookIcon className="icon" />
-        </a>
-        <a href="https://mail.google.com">
-          <EmailIcon className="icon" />
-        </a>
-        <a href="https://telegram.org/">
-          <TelegramIcon className="icon" />
-        </a>
-      </div>
+      <p className="copyright">
+        Copyright © 2023 Kotebe 7th Day Adventist Church | Designed by Yeabtsega
+        Yeshidnber
+      </p>
     </div>
   );
 }
