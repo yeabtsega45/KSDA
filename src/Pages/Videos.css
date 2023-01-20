@@ -1,0 +1,7 @@
+.cards_vertical {
+    display: flex;
+    width:90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
