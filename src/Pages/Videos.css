@@ -5,3 +5,6 @@
     justify-content: center;
     padding: 20px;
 }
+.cards_vertical > a {
+    color: black;
+}
