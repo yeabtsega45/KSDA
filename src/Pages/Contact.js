@@ -6,12 +6,12 @@ import location from "../Assets/location.png";
 
 function Contact() {
   return (
-    <div>
+    <div className="contact">
       <div className="header">
         <img src={img1} alt="header_image" />
         <h1>Contact Us</h1>
       </div>
-      <div className="about_body">
+      <div className="contact_body">
         <div className="contact_phone">
           <h4>We would love to hear from you!</h4>
           <div className="contact_flex">
@@ -26,12 +26,14 @@ function Contact() {
           please come to kotebe seventh day adventist church. We look forward to
           getting to know you as we continue to experience God together.
         </p>
-        <h3>የአምልኮ ጊዜ</h3>
-        <p>ረቡዕ | ምሽት12:00</p>
-        <p>አርብ | ምሽት12:00</p>
-        <p>ቅዳሜ | ሙሉቀን</p>
+        <div className="contact_worship">
+          <h3>የአምልኮ ጊዜ</h3>
+          <p>ረቡዕ | ምሽት12:00</p>
+          <p>አርብ | ምሽት12:00</p>
+          <p>ቅዳሜ | ሙሉቀን</p>
+        </div>
         <div className="contact_flex">
-          <div>
+          <div className="contact_location">
             <h3>Location</h3>
             <p>Addis Ababa, Yeka, Kotebe</p>
           </div>

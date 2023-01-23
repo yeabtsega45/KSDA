@@ -1,6 +1,25 @@
+.contact {
+    /* margin-top: 50px; */
+}
+.contact_body {
+    margin-left: 200px;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* margin-top: 50px; */
+}
+.contact_body > h3 {
+    color: #005ea2;
+    margin-left: 100px;
+    text-decoration-line: underline;
+}
+.contact_body > h4 {
+    color: #052252;
+}
+.contact_body > p {
+    color: #4a4a4a;
+    width: 70%;
+}
 .contact_phone {
-    /* text-align: center; */
-    /* justify-content: center; */
     margin-left: 300px;
 }
 .contact_flex {
@@ -11,4 +30,10 @@
     color: green;
     transform: scale(1.6);
     margin-right: 40px;
+}
+.contact_worship {
+    margin-left: 350px;
+}
+.contact_location {
+    margin-right: 50px;
 }
