@@ -1,9 +1,12 @@
 .about_body {
     margin-left: 200px;
+    font-size: large;
 }
 .about_body > h3 {
     color: #005ea2;
     /* text-align: center; */
+    margin-left: 100px;
+    text-decoration-line: underline;
 }
 .about_body > h4 {
     color: #052252;

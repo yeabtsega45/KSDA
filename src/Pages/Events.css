@@ -6,10 +6,11 @@
 }
 .header > h1 {
     color: #005ea2;
-    border-bottom: 1px solid #005ea2;
+    /* border-bottom: 1px solid #005ea2; */
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bolder;
+    text-decoration-line: underline;
 }
 .event_cards {
     /* display: flex; */
