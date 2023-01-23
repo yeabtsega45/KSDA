@@ -35,4 +35,5 @@ nav > a {
 }
 a:hover {
     color: lightblue;
+    cursor: pointer;
 }
