@@ -9,13 +9,17 @@ function Contact() {
     <div>
       <div className="header">
         <img src={img1} alt="header_image" />
-        <h1>About</h1>
+        <h1>Contact Us</h1>
       </div>
       <div className="about_body">
-        <h4>We would love to hear from you!</h4>
-        <div>
-          <PhoneIcon />
-          <p>Pastor Mekit "\n" +251963137715</p>
+        <div className="contact_phone">
+          <h4>We would love to hear from you!</h4>
+          <div className="contact_flex">
+            <PhoneIcon className="phone_icon" />
+            <p>
+              Pastor Mekit <br></br> +251963137715
+            </p>
+          </div>
         </div>
         <p>
           Thank you for connecting with us online. If you’re a guest with us,
@@ -26,11 +30,13 @@ function Contact() {
         <p>ረቡዕ | ምሽት12:00</p>
         <p>አርብ | ምሽት12:00</p>
         <p>ቅዳሜ | ሙሉቀን</p>
-        <div>
-          <h3>Location</h3>
-          <p>Addis Ababa, Yeka, Kotebe</p>
+        <div className="contact_flex">
+          <div>
+            <h3>Location</h3>
+            <p>Addis Ababa, Yeka, Kotebe</p>
+          </div>
+          <img src={location} alt="location" />
         </div>
-        <img src={location} alt="location" />
       </div>
     </div>
   );

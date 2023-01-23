@@ -1,0 +1,14 @@
+.contact_phone {
+    /* text-align: center; */
+    /* justify-content: center; */
+    margin-left: 300px;
+}
+.contact_flex {
+    display: flex;
+    align-items: center;
+}
+.phone_icon {
+    color: green;
+    transform: scale(1.6);
+    margin-right: 40px;
+}

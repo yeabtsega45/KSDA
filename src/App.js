@@ -6,6 +6,7 @@ import Events from "./Pages/Events";
 import Videos from "./Pages/Videos";
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
+import Contact from "./Pages/Contact";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         {/* <Route path="/members" element={<Topics />} /> */}
         <Route path="/about" element={<About />} />
-        {/* <Route path="/contact" element={<Questions />} /> */}
+        <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
     </>
