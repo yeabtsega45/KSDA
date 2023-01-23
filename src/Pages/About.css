@@ -1,0 +1,14 @@
+.about_body {
+    margin-left: 200px;
+}
+.about_body > h3 {
+    color: #005ea2;
+    /* text-align: center; */
+}
+.about_body > h4 {
+    color: #052252;
+}
+.about_body > p {
+    color: #4a4a4a;
+    width: 70%;
+}
