@@ -1,19 +1,15 @@
 .contact {
-    /* margin-top: 50px; */
+    background-color: lightgray;
 }
 .contact_body {
     margin-left: 200px;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    /* margin-top: 50px; */
 }
 .contact_body > h3 {
     color: #005ea2;
     margin-left: 100px;
     text-decoration-line: underline;
-}
-.contact_body > h4 {
-    color: #052252;
 }
 .contact_body > p {
     color: #4a4a4a;
@@ -22,9 +18,16 @@
 .contact_phone {
     margin-left: 300px;
 }
+.contact_phone > h4 {
+    color: #052252;
+}
 .contact_flex {
     display: flex;
     align-items: center;
+}
+.contact_flex > p {
+    color: #4a4a4a;
+    width: 70%;
 }
 .phone_icon {
     color: green;
@@ -32,8 +35,28 @@
     margin-right: 40px;
 }
 .contact_worship {
-    margin-left: 350px;
+    margin-right: 200px;
+    background-color: #005ea2;
+    text-align: center;
+}
+.contact_worship > h3 {
+    /* color: #005ea2; */
+    text-decoration-line: underline;
+    color: white;
+}
+.contact_worship > p {
+    /* color: #4a4a4a; */
+    width: 70%;
+    color: white;
 }
 .contact_location {
     margin-right: 50px;
+}
+.contact_location > h3 {
+    color: #005ea2;
+    text-decoration-line: underline;
+}
+.contact_location > p {
+    color: #4a4a4a;
+    width: 70%;
 }
