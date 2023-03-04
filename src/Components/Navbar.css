@@ -16,13 +16,15 @@
 }
 .title > h2 {
     width: 50%;
-    height: 22px;
+    /* height: 22px; */
+    /* font-size: 3 rem; */
+    font-size: large;
     color: white;
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
 }
 .title > img {
-    width: 15%;
+    width: 25%;
     object-fit: cover;
     margin: 0px 15px;
     background-color: white;
