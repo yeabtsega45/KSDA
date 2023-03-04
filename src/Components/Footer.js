@@ -13,7 +13,9 @@ function Footer() {
     <div className="footer">
       <div className="footer_logo">
         <img src={logo} alt="logo" />
-        <h2>Kotebe 7th Day Adventist Church</h2>
+        <h2>
+          Kotebe 7<sup>th</sup> Day Adventist Church
+        </h2>
       </div>
       <div className="footer_body">
         <div className="footer_contact">
