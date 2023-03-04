@@ -53,4 +53,10 @@ a:hover {
         transition: all 0.5s ease-in-out;
         opacity: 80%;
     }
+    nav > a {
+        color: white;
+        text-align: center;
+        width: 100%;
+        margin: 0px;
+    }
 }
