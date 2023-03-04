@@ -59,4 +59,15 @@ a:hover {
         width: 100%;
         margin: 0px;
     }
+    .mobile-menu-icon {
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color:rgb(65, 64, 64);
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
 }
