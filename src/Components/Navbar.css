@@ -42,4 +42,15 @@ a:hover {
         visibility: hidden;
         height: 0%;
     }
+    .nav-links-mobile {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        background-color:rgb(65, 64, 64);
+        top: 75px;
+        width: 100%;
+        height: 100%;
+        transition: all 0.5s ease-in-out;
+        opacity: 80%;
+    }
 }
