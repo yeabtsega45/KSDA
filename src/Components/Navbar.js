@@ -3,6 +3,8 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
+import MenuIcon from "@material-ui/icons/Menu";
+import CloseIcon from "@material-ui/icons/Close";
 
 function Navbar() {
   const [show, setShow] = useState(true);
@@ -24,6 +26,9 @@ function Navbar() {
         <Link to="/about">About Us</Link>
         <Link to="/contact">Contact Us</Link>
       </nav>
+      <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
+        {show ? <MenuIcon /> : <CloseIcon />}
+      </button>
     </div>
   );
 }
