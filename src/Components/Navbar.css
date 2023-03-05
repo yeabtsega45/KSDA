@@ -43,9 +43,13 @@ nav > a {
     padding: 10px;
     text-decoration-line: none;
 }
-a:hover {
+nav a:hover {
     color: lightblue;
     cursor: pointer;
+}
+nav a.active {
+    color: #005ea2;
+    background-color: white;
 }
 .mobile-menu-icon {
     display: none;
@@ -65,14 +69,15 @@ a:hover {
         background-color: #005ea2;
         top: 75px;
         width: 100%;
-        height: 1000%;
+        height: 500%;
         transition: all 0.5s ease-in-out;
-        opacity: 80%;
+        opacity: 85%;
     }
     nav > a {
         color: white;
         text-align: center;
         width: 100%;
+        height: 100%;
         margin: 0px;
     }
     .mobile-menu-icon {
