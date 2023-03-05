@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../Assets/logo.png";
 import MenuIcon from "@material-ui/icons/Menu";
@@ -20,11 +20,11 @@ function Navbar() {
         className={show ? "nav-links" : "nav-links-mobile"}
         onClick={() => setShow(true)}
       >
-        <Link to="/">Upcoming Events</Link>
-        <Link to="/videos">Uploaded Videos</Link>
-        <Link to="/members">Membership</Link>
-        <Link to="/about">About Us</Link>
-        <Link to="/contact">Contact Us</Link>
+        <NavLink to="/">Upcoming Events</NavLink>
+        <NavLink to="/videos">Uploaded Videos</NavLink>
+        <NavLink to="/members">Membership</NavLink>
+        <NavLink to="/about">About Us</NavLink>
+        <NavLink to="/contact">Contact Us</NavLink>
       </nav>
       <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
         {show ? <MenuIcon /> : <CloseIcon />}
