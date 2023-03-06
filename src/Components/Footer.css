@@ -47,3 +47,16 @@
 .copyright {
     color: #c1c0c0;
 }
+
+@media only screen and (max-width: 768px){
+    .footer_body {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_contact {
+        margin: 0;
+    }
+    .footer_other {
+        margin: 0;
+    }
+}
