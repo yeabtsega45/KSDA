@@ -8,6 +8,7 @@
     font-weight: bold;
     /* margin: 0px; */
     height: 75px;
+    width: 100vw;
 }
 .title {
     display: flex;
