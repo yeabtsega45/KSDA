@@ -49,14 +49,19 @@
 }
 
 @media only screen and (max-width: 768px){
+    .footer_logo {
+        display: none;
+    }
     .footer_body {
         display: flex;
         flex-direction: column;
     }
     .footer_contact {
         margin: 0;
+        border-bottom: 1px solid white;
     }
     .footer_other {
         margin: 0;
+        border-top: 1px solid white;
     }
 }
