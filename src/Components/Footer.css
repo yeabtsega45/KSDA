@@ -49,6 +49,10 @@
 }
 
 @media only screen and (max-width: 768px){
+    /* .footer {
+        position: sticky;
+        bottom: 0;
+    } */
     .footer_logo {
         display: none;
     }
