@@ -1,15 +1,31 @@
+.about {
+    justify-content: center;
+}
 .about_body {
-    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* text-align: center; */
+    align-items: center;
+    /* margin-left: 200px; */
     font-size: larger;
+    width: 100%;
+    margin: auto;
+    /* border: 1px solid black; */
 }
 .about_body > h3 {
     color: #005ea2;
-    /* text-align: center; */
-    margin-left: 100px;
+    text-align: center;
+    /* margin-left: 100px; */
     text-decoration-line: underline;
+    width: 90%;
+    margin: auto;
 }
 .about_body > h4 {
     color: #052252;
+    /* text-align: left; */
+    /* margin: 0; */
+    width: 70%;
 }
 .about_body > p {
     color: #4a4a4a;
