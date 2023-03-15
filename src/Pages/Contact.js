@@ -14,7 +14,7 @@ function Contact() {
       <div className="contact_body">
         <div className="contact_phone">
           <h4>We would love to hear from you!</h4>
-          <div className="phone_text">
+          <div className="phone">
             <PhoneIcon className="phone_icon" />
             <p>
               Pastor Mekit <br></br> +251963137715

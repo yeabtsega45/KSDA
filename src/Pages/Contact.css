@@ -19,14 +19,19 @@
     color: #4a4a4a;
     /* width: 70%; */
 }
-.contact_phone {
-    /* margin-left: 300px; */
-    /* justify-content: center; */
-    /* width: 50%; */
-    /* margin: auto; */
-}
+/* .contact_phone {
+    margin-left: 300px;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+} */
 .contact_phone > h4 {
     color: #052252;
+}
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 .contact_flex {
     display: flex;
@@ -43,9 +48,12 @@
     /* margin: auto; */
 }
 .contact_note {
-    /* padding: 2rem; */
-    /* width: 90%; */
-    /* margin: auto; */
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
 }
 .contact_worship {
     /* margin-right: 200px; */
