@@ -14,18 +14,20 @@ function Contact() {
       <div className="contact_body">
         <div className="contact_phone">
           <h4>We would love to hear from you!</h4>
-          <div className="contact_flex">
+          <div className="phone_text">
             <PhoneIcon className="phone_icon" />
             <p>
               Pastor Mekit <br></br> +251963137715
             </p>
           </div>
         </div>
-        <p>
-          Thank you for connecting with us online. If you’re a guest with us,
-          please come to kotebe seventh day adventist church. We look forward to
-          getting to know you as we continue to experience God together.
-        </p>
+        <div className="contact_note">
+          <p>
+            Thank you for connecting with us online. If you’re a guest with us,
+            please come to kotebe seventh day adventist church. We look forward
+            to getting to know you as we continue to experience God together.
+          </p>
+        </div>
         <div className="contact_worship">
           <h3>የአምልኮ ጊዜ</h3>
           <p>ረቡዕ | ምሽት12:00</p>

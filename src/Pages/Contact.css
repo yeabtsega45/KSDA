@@ -8,6 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 }
 .contact_body > h3 {
     color: #005ea2;
@@ -16,13 +17,13 @@
 }
 .contact_body > p {
     color: #4a4a4a;
-    width: 70%;
+    /* width: 70%; */
 }
 .contact_phone {
     /* margin-left: 300px; */
     /* justify-content: center; */
-    width: 50%;
-    margin: auto;
+    /* width: 50%; */
+    /* margin: auto; */
 }
 .contact_phone > h4 {
     color: #052252;
@@ -33,12 +34,17 @@
 }
 .contact_flex > p {
     color: #4a4a4a;
-    width: 70%;
+    /* width: 70%; */
 }
 .phone_icon {
     color: green;
     transform: scale(1.6);
     /* margin-right: 40px; */
+    /* margin: auto; */
+}
+.contact_note {
+    /* padding: 2rem; */
+    /* width: 90%; */
     /* margin: auto; */
 }
 .contact_worship {
