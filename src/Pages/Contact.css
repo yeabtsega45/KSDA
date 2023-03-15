@@ -2,13 +2,16 @@
     background-color: lightgray;
 }
 .contact_body {
-    margin-left: 200px;
+    /* margin-left: 200px; */
     font-size: x-large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .contact_body > h3 {
     color: #005ea2;
-    margin-left: 100px;
+    /* margin-left: 100px; */
     text-decoration-line: underline;
 }
 .contact_body > p {
@@ -16,7 +19,10 @@
     width: 70%;
 }
 .contact_phone {
-    margin-left: 300px;
+    /* margin-left: 300px; */
+    /* justify-content: center; */
+    width: 50%;
+    margin: auto;
 }
 .contact_phone > h4 {
     color: #052252;
@@ -32,7 +38,8 @@
 .phone_icon {
     color: green;
     transform: scale(1.6);
-    margin-right: 40px;
+    /* margin-right: 40px; */
+    /* margin: auto; */
 }
 .contact_worship {
     margin-right: 200px;
@@ -59,4 +66,8 @@
 .contact_location > p {
     color: #4a4a4a;
     width: 70%;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
