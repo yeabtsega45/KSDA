@@ -32,12 +32,14 @@ function Contact() {
           <p>አርብ | ምሽት12:00</p>
           <p>ቅዳሜ | ሙሉቀን</p>
         </div>
-        <div className="contact_flex">
-          <div className="contact_location">
+        <div className="contact_location">
+          <div className="location_text">
             <h3>Location</h3>
             <p>Addis Ababa, Yeka, Kotebe</p>
           </div>
-          <img src={location} alt="location" />
+          <div className="location_img">
+            <img src={location} alt="location" />
+          </div>
         </div>
       </div>
     </div>

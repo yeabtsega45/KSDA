@@ -57,17 +57,22 @@
     color: white;
 }
 .contact_location {
-    margin-right: 50px;
+    display: flex;
 }
-.contact_location > h3 {
+.location_text {
+    /* margin-right: 50px; */
+}
+.location_text > h3 {
     color: #005ea2;
     text-decoration-line: underline;
 }
-.contact_location > p {
+.location_text > p {
     color: #4a4a4a;
     width: 70%;
 }
 
 @media screen and (max-width: 768px) {
-    
+    .contact_location {
+        flex-direction: column;
+    }
 }
