@@ -2,13 +2,14 @@
     position: sticky;
     top: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     background-color: #005ea2;
     font-weight: bold;
     /* margin: 0px; */
     height: 75px;
     width: 100%;
+    z-index: 1;
 }
 .title {
     display: flex;
@@ -26,7 +27,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 .title > img {
-    width: 25%;
+    width: 20%;
     object-fit: cover;
     margin: 0px 15px;
     background-color: white;
@@ -56,14 +57,11 @@ nav a.active {
     display: none;
 }
 @media only screen and (max-width: 768px){
-    .navbar {
-        z-index: 1;
-    }
     .title {
         position: absolute;
     }
     .title > img {
-        width: 20%;
+        width: 15%;
     }    
     .nav-links {
         visibility: hidden;

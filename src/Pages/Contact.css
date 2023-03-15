@@ -8,7 +8,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .contact_body > h3 {
     color: #005ea2;
@@ -69,7 +69,7 @@
 }
 .contact_worship > p {
     /* color: #4a4a4a; */
-    width: 70%;
+    /* width: 70%; */
     color: white;
 }
 .contact_location {
@@ -91,7 +91,7 @@
 }
 .location_text > p {
     color: #4a4a4a;
-    width: 70%;
+    /* width: 70%; */
 }
 .location_img {
     width: 100%;

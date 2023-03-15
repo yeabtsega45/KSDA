@@ -16,19 +16,21 @@ function Navbar() {
           Kotebe 7<sup>th</sup> Day Adventist Church
         </h2>
       </div>
-      <nav
-        className={show ? "nav-links" : "nav-links-mobile"}
-        onClick={() => setShow(true)}
-      >
-        <NavLink to="/">Upcoming Events</NavLink>
-        <NavLink to="/videos">Uploaded Videos</NavLink>
-        <NavLink to="/members">Membership</NavLink>
-        <NavLink to="/about">About Us</NavLink>
-        <NavLink to="/contact">Contact Us</NavLink>
-      </nav>
-      <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
-        {show ? <MenuIcon /> : <CloseIcon />}
-      </button>
+      <div>
+        <nav
+          className={show ? "nav-links" : "nav-links-mobile"}
+          onClick={() => setShow(true)}
+        >
+          <NavLink to="/">Upcoming Events</NavLink>
+          <NavLink to="/videos">Uploaded Videos</NavLink>
+          <NavLink to="/members">Membership</NavLink>
+          <NavLink to="/about">About Us</NavLink>
+          <NavLink to="/contact">Contact Us</NavLink>
+        </nav>
+        <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
+          {show ? <MenuIcon /> : <CloseIcon />}
+        </button>
+      </div>
     </div>
   );
 }
