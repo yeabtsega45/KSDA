@@ -42,9 +42,11 @@
     /* margin: auto; */
 }
 .contact_worship {
-    margin-right: 200px;
+    /* margin-right: 200px; */
     background-color: #005ea2;
     text-align: center;
+    width: 100%;
+    margin: auto;
 }
 .contact_worship > h3 {
     /* color: #005ea2; */
@@ -58,9 +60,16 @@
 }
 .contact_location {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
 }
 .location_text {
     /* margin-right: 50px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
 }
 .location_text > h3 {
     color: #005ea2;
@@ -69,6 +78,12 @@
 .location_text > p {
     color: #4a4a4a;
     width: 70%;
+}
+.location_img {
+    width: 100%;
+}
+.location_img > img{
+    width: 100%;
 }
 
 @media screen and (max-width: 768px) {
