@@ -26,6 +26,7 @@ function Navbar() {
           <NavLink to="/members">Membership</NavLink>
           <NavLink to="/about">About Us</NavLink>
           <NavLink to="/contact">Contact Us</NavLink>
+          <NavLink to="/register">Register</NavLink>
         </nav>
         <button className="mobile-menu-icon" onClick={() => setShow(!show)}>
           {show ? <MenuIcon /> : <CloseIcon />}
