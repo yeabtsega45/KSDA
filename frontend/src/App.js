@@ -7,6 +7,7 @@ import Videos from "./Pages/Videos";
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Form from "./Pages/Form";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         {/* <Route path="/members" element={<Topics />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/register" element={<Form />} />
       </Routes>
       <Footer />
     </>
