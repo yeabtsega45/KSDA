@@ -1,5 +1,6 @@
 .table_container {
     overflow-x:auto;
+    padding: 20px;
 }
 table {
     font-family: arial, sans-serif;

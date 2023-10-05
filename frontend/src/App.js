@@ -7,7 +7,7 @@ import Videos from "./Pages/Videos";
 import Footer from "./Components/Footer";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
-import Form from "./Pages/Form";
+import Registeration from "./Pages/Registeration";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
         {/* <Route path="/members" element={<Topics />} /> */}
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/register" element={<Form />} />
+        <Route path="/register" element={<Registeration />} />
       </Routes>
       <Footer />
     </>

@@ -45,9 +45,44 @@ function Form() {
           <td></td>
         </tr>
         <tr>
-          <td>ጾታ</td>
+          <td rowSpan="3">ጾታ</td>
+          <td>ወንድ</td>
           <td></td>
           <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ሴት</td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td rowSpan="3">ኢሜል አድራሻ</td>
+          <td rowSpan="3"></td>
+          <td rowSpan="3">የትዳር ሁኔታ</td>
+          <td>ያገባ</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>ያላገባ</td>
           <td></td>
         </tr>
       </table>
