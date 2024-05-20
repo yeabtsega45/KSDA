@@ -2,7 +2,6 @@
     width: 100%;
     height: 300px;
     object-fit: cover;
-    /* opacity: 0.5; */
     position: relative;
 }
 .overlay {
@@ -14,14 +13,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white; /* Text color inside overlay */
-    font-size: 1.5em; /* Adjust text size */
-    transition: opacity 0.3s ease; /* Optional: for fade effect */
 }
 .hero_title {
     color: white;
     text-align: center;
-    /* font-weight: bolder; */
     font-size: 3rem;
     margin: 0;
 }
