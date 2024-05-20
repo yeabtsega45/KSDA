@@ -27,12 +27,9 @@
     text-decoration-line: underline;
 }
 .event_cards {
-    /* display: flex; */
-    width:80%;
+    display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 20px;
-    /* align-items: center; */
-    /* justify-content: center; */
-    margin: auto;
-    /* border: 1px solid black;  */
+    background-color: #f8f9fa;
 }
