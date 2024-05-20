@@ -1,14 +1,13 @@
 import React from "react";
-import img1 from "../Assets/frontpage.jpg";
 import "./Videos.css";
 import Box from "../Components/Box";
 import VideoData from "../Utils/VideoData";
+import Hero from "../Components/Hero";
 
 function Videos() {
   return (
     <div className="header">
-      <img src={img1} alt="header_image" />
-      <h1>Uploaded Videos</h1>
+      <Hero title="Uploaded Videos" />
       <div className="cards_vertical">
         {VideoData.map((video) => (
           <a key={video.id} href={video.url}>
