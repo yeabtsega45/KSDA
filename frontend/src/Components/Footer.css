@@ -1,6 +1,4 @@
 .footer {
-    /* position: sticky;
-    bottom: 0; */
     background-color: #005ea2;
     color: white;
     display: flex ;
@@ -12,6 +10,7 @@
 .footer_logo {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .footer_logo > h2 {
     height: 22px;
@@ -28,7 +27,6 @@
 .footer_body {
     display: flex;
     justify-content: space-around;
-    /* align-items: center; */
     width: 100%;
 }
 /* .footer_contact {
@@ -37,7 +35,7 @@
 .info {
     display: flex;
     align-items: center;
-    margin: -10px 0px;
+    /* margin: -10px 0px; */
 }
 .icon {
     margin: 10px 10px;
