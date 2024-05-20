@@ -1,4 +1,4 @@
-.card {
+.box {
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -8,28 +8,28 @@
     margin: 20px;
     }
 
-.card:hover {
+.box:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
-.card-image {
+.box-image {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
 
-.card-content {
+.box-content {
     padding: 15px;
 }
 
-.card-title {
+.box-title {
     margin: 0;
     font-size: 1.5em;
     color: #333;
     }
 
-.card-description {
+.box-description {
     margin-top: 10px;
     color: #777;
 }

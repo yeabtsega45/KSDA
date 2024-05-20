@@ -3,11 +3,11 @@ import "./Box.css";
 
 function Box({ title, image, description }) {
   return (
-    <div className="card">
-      <img src={image} alt={title} className="card-image" />
-      <div className="card-content">
-        <h3 className="card-title">{title}</h3>
-        <p className="card-description">{description}</p>
+    <div className="box">
+      <img src={image} alt={title} className="box-image" />
+      <div className="box-content">
+        <h3 className="box-title">{title}</h3>
+        <p className="box-description">{description}</p>
       </div>
     </div>
   );
