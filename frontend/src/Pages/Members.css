@@ -1,0 +1,11 @@
+.no-members {
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-members-text {
+    font-size: 24px;
+    color: #333;
+}
