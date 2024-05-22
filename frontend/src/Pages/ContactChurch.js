@@ -8,11 +8,11 @@ const ContactChurch = () => {
       <div className="contact-info">
         <div className="contact-details">
           <h2>Church Address</h2>
-          <p>1234 Church St, Townsville, Country</p>
+          <p>02 Kotebe St, Yeka, Addis Ababa</p>
           <h2>Email</h2>
-          <p>info@churchname.org</p>
+          <p>ksdac@gmail.com</p>
           <h2>Phone</h2>
-          <p>(123) 456-7890</p>
+          <p>(011) 456-7890</p>
         </div>
         <form className="contact-form">
           <h2>Send Us a Message</h2>
