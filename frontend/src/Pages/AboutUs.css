@@ -48,6 +48,10 @@
     text-align: center;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
+    width: 30vh;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 .team-member:hover {
@@ -62,6 +66,7 @@
     height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
+    margin: 0 auto;
 }
 
 /* MemberName styles */

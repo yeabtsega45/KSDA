@@ -1,18 +1,22 @@
 const teamMembers = [
   {
-    name: "Alice Johnson",
-    role: "CEO",
-    photo: "https://via.placeholder.com/100",
-  },
-  { name: "Bob Smith", role: "CTO", photo: "https://via.placeholder.com/100" },
-  {
-    name: "Charlie Brown",
-    role: "Designer",
+    name: "Mekit",
+    role: "Pastor",
     photo: "https://via.placeholder.com/100",
   },
   {
-    name: "Dana White",
-    role: "Developer",
+    name: "Muse Bekele",
+    role: "Board Member",
+    photo: "https://via.placeholder.com/100",
+  },
+  {
+    name: "Zerihun Awano",
+    role: "Board Member",
+    photo: "https://via.placeholder.com/100",
+  },
+  {
+    name: "Yidnekachew Kassahun",
+    role: "Choir Leader",
     photo: "https://via.placeholder.com/100",
   },
 ];
