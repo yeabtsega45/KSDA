@@ -7,7 +7,7 @@ import Videos from "./Pages/Videos";
 import BottomBar from "./Components/BottomBar";
 import AboutUs from "./Pages/AboutUs";
 import ContactChurch from "./Pages/ContactChurch";
-import Registeration from "./Pages/Registeration";
+import Register from "./Pages/Register";
 import Members from "./Pages/Members";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Route path="/members" element={<Members />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactChurch />} />
-        <Route path="/register" element={<Registeration />} />
+        <Route path="/register" element={<Register />} />
       </Routes>
       <BottomBar />
     </>

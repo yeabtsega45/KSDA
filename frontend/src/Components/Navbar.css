@@ -46,7 +46,7 @@ nav {
     align-items: center;
     width: 100%;
 }
-nav > a {
+nav a {
     color: white;
     padding: 0 10px;
     text-decoration-line: none;
@@ -58,6 +58,16 @@ nav a:hover {
 }
 nav a.active {
     color: #ffcc00;
+}
+nav a button {
+    background-color: white;
+    color: #005ea2;
+    padding: 4px 20px;
+    border-radius: 16px;
+}
+nav a button:hover {
+    background-color: lightblue;
+    transition: all 0.3s ease-in-out;
 }
 .mobile-menu-icon {
     display: none;
