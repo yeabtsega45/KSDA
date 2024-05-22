@@ -1,4 +1,6 @@
 import React from "react";
+import "./AboutUs.css";
+import teamMembers from "../Utils/TeamMembers";
 
 function AboutUs() {
   return (
@@ -17,7 +19,7 @@ function AboutUs() {
             <img
               className="member-photo"
               src={member.photo}
-              alt={`${member.name}'s photo`}
+              alt={member.name}
             />
             <div className="member-name">{member.name}</div>
             <div className="member-role">{member.role}</div>
