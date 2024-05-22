@@ -1,3 +1,6 @@
+import muse from "../Assets/Muse.jpeg";
+import yidne from "../Assets/Yidne.jpeg";
+
 const teamMembers = [
   {
     name: "Mekit",
@@ -7,17 +10,17 @@ const teamMembers = [
   {
     name: "Muse Bekele",
     role: "Board Member",
-    photo: "https://via.placeholder.com/100",
+    photo: muse,
   },
   {
-    name: "Zerihun Awano",
-    role: "Board Member",
+    name: "Dr.Worku Negash",
+    role: "Church Elder",
     photo: "https://via.placeholder.com/100",
   },
   {
     name: "Yidnekachew Kassahun",
     role: "Choir Leader",
-    photo: "https://via.placeholder.com/100",
+    photo: yidne,
   },
 ];
 
