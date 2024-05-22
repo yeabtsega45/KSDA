@@ -12,7 +12,7 @@ const ContactChurch = () => {
           <h2>Email</h2>
           <p>ksdac@gmail.com</p>
           <h2>Phone</h2>
-          <p>(011) 456-7890</p>
+          <p>011 456 7890</p>
         </div>
         <form className="contact-form">
           <h2>Send Us a Message</h2>

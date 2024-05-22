@@ -14,9 +14,9 @@ function BottomBar() {
         </div>
         <div className="footer-column">
           <h3>Contact Us</h3>
-          <p>Email: info@churchname.org</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Address: 123 Church St, City, Country</p>
+          <p>Email: ksdac@gmail.com</p>
+          <p>Phone: 011 456 7890</p>
+          <p>Address: 02 Kotebe St, Yeka, Addis Ababa</p>
         </div>
         <div className="footer-column">
           <h3>Follow Us</h3>
@@ -46,7 +46,10 @@ function BottomBar() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>&copy; 2024 Church Name. All rights reserved.</p>
+        <p>
+          &copy; 2024 Kotebe 7<sup>th</sup> Day Adventist Church. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );

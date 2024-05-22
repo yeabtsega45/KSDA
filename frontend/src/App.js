@@ -4,7 +4,7 @@ import Navbar from "./Components/Navbar";
 import { Routes, Route } from "react-router-dom";
 import Events from "./Pages/Events";
 import Videos from "./Pages/Videos";
-import Footer from "./Components/Footer";
+import BottomBar from "./Components/BottomBar";
 import AboutUs from "./Pages/AboutUs";
 import ContactChurch from "./Pages/ContactChurch";
 import Registeration from "./Pages/Registeration";
@@ -22,7 +22,7 @@ function App() {
         <Route path="/contact" element={<ContactChurch />} />
         <Route path="/register" element={<Registeration />} />
       </Routes>
-      <Footer />
+      <BottomBar />
     </>
   );
 }
