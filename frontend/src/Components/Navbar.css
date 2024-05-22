@@ -50,13 +50,14 @@ nav > a {
     color: white;
     padding: 0 10px;
     text-decoration-line: none;
+    transition: all 0.3s ease-in-out;
 }
 nav a:hover {
-    color: lightblue;
+    color: #ffcc00;
     cursor: pointer;
 }
 nav a.active {
-    color: lightblue;
+    color: #ffcc00;
 }
 .mobile-menu-icon {
     display: none;

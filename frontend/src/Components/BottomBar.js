@@ -1,5 +1,8 @@
 import React from "react";
 import "./BottomBar.css";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import YouTubeIcon from "@material-ui/icons/YouTube";
+import TelegramIcon from "@material-ui/icons/Telegram";
 
 function BottomBar() {
   return (
@@ -22,25 +25,25 @@ function BottomBar() {
           <h3>Follow Us</h3>
           <div className="social-icons">
             <a
-              href="https://facebook.com"
+              href="https://www.youtube.com/@officialkotebesdachurch9361"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Facebook
+              <YouTubeIcon className="icon" />
             </a>
             <a
-              href="https://twitter.com"
+              href="https://www.facebook.com/kotebesdachurch/"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Twitter
+              <FacebookIcon className="icon" />
             </a>
             <a
-              href="https://instagram.com"
+              href="https://t.me/OFFICIALKotebeSDAChurch"
               target="_blank"
               rel="noopener noreferrer"
             >
-              Instagram
+              <TelegramIcon className="icon" />
             </a>
           </div>
         </div>

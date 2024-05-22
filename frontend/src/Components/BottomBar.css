@@ -37,6 +37,10 @@
     transition: color 0.3s;
 }
 
+.icon {
+    transform: scale(1.5);
+}
+
 .social-icons a:hover {
     color: #ffcc00;
 }
