@@ -6,7 +6,7 @@ import Events from "./Pages/Events";
 import Videos from "./Pages/Videos";
 import Footer from "./Components/Footer";
 import AboutUs from "./Pages/AboutUs";
-import Contact from "./Pages/Contact";
+import ContactUs from "./Pages/ContactUs";
 import Registeration from "./Pages/Registeration";
 import Members from "./Pages/Members";
 
@@ -19,7 +19,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/members" element={<Members />} />
         <Route path="/about" element={<AboutUs />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact" element={<ContactUs />} />
         <Route path="/register" element={<Registeration />} />
       </Routes>
       <Footer />
