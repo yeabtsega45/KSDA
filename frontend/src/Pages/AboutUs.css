@@ -1,0 +1,77 @@
+/* AboutUsContainer styles */
+.about-us-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header styles */
+.header {
+    font-size: 3em;
+    margin: 20px 0;
+    color: #2c3e50;
+}
+
+/* SubHeader styles */
+.sub-header {
+    font-size: 2em;
+    margin: 10px 0;
+    color: #34495e;
+}
+
+/* Content styles */
+.content {
+    max-width: 800px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* TeamContainer styles */
+.team-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+/* TeamMember styles */
+.team-member {
+    margin: 10px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* MemberPhoto styles */
+.member-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* MemberName styles */
+.member-name {
+    margin: 10px 0 5px 0;
+    color: #2c3e50;
+}
+
+/* MemberRole styles */
+.member-role {
+    font-size: 1em;
+    color: #7f8c8d;
+}
