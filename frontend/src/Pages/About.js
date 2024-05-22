@@ -1,14 +1,11 @@
 import React from "react";
-import img1 from "../Assets/frontpage.jpg";
 import "./About.css";
+import Hero from "../Components/Hero";
 
 function About() {
   return (
     <div>
-      <div className="header">
-        <img src={img1} alt="header_image" />
-        <h1>About</h1>
-      </div>
+      <Hero title="About Us" />
       <div className="about">
         <div className="about_body">
           <p>
