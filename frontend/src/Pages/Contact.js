@@ -1,16 +1,13 @@
 import React from "react";
-import img1 from "../Assets/frontpage.jpg";
 import "./Contact.css";
 import PhoneIcon from "@material-ui/icons/Phone";
 import location from "../Assets/location.png";
+import Hero from "../Components/Hero";
 
 function Contact() {
   return (
     <div className="contact">
-      <div className="header">
-        <img src={img1} alt="header_image" />
-        <h1>Contact Us</h1>
-      </div>
+      <Hero title="Contact Us" />
       <div className="contact_body">
         <div className="contact_phone">
           <h4>We would love to hear from you!</h4>
