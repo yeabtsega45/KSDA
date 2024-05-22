@@ -6,6 +6,7 @@
     overflow: hidden;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     max-width: 300px;
+    height: 50vh;
     margin: 20px;
 }
 
@@ -26,11 +27,12 @@
 
 .box-title {
     margin: 0;
-    font-size: 1.5em;
+    font-size: 1.3em;
+    font-weight: bold;
     color: #333;
     }
 
 .box-description {
-    margin-top: 10px;
+    margin-top: 30px;
     color: #777;
 }
