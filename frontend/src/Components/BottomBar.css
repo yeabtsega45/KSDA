@@ -30,6 +30,15 @@
     margin: 5px 0;
 }
 
+.footer-column a {
+    text-decoration: underline;
+    transition: color 0.3s;
+}
+
+.footer-column a:hover {
+    color: #ffcc00;
+}
+
 .social-icons a {
     color: #fff;
     text-decoration: none;

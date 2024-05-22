@@ -17,8 +17,12 @@ function BottomBar() {
         </div>
         <div className="footer-column">
           <h3>Contact Us</h3>
-          <p>Email: ksdac@gmail.com</p>
-          <p>Phone: 011 456 7890</p>
+          <p>
+            Email: <a href="mailto:ksdac@gmail.com">ksdac@gmail.com</a>
+          </p>
+          <p>
+            Phone: <a href="tel: 0114567890">011 456 7890</a>
+          </p>
           <p>Address: 02 Kotebe St, Yeka, Addis Ababa</p>
         </div>
         <div className="footer-column">
