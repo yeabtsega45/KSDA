@@ -42,19 +42,20 @@
 
 .form-group-radio {
     display: flex;
-    /* flex-direction: column; */
     gap: 10px;
     margin-bottom: 15px;
 }
 
 .form-group-radio label {
+    font-weight: bold;
     margin-right: 10px;
+    margin-left: 4px;
 }
 
 .radio-group {
     display: flex;
     align-items: center;
-    margin-right: 4px;
+    margin-bottom: 5px;
 }
 
 .submit-btn {
@@ -84,6 +85,7 @@
     .form-group-radio {
         flex-direction: row;
         align-items: center;
+        flex-direction: column;
     }
 
     .radio-group {

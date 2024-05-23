@@ -10,13 +10,19 @@ function Register() {
     password: "",
     address: "",
     gender: "",
-    image: "",
+    image: null,
   });
   const navigate = useNavigate();
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setForm({ ...form, [name]: value });
+    const { name, value, type } = e.target;
+    if (type === "file") {
+      setForm({ ...form, [name]: e.target.files[0] }); // Handle file input
+    } else if (type === "radio") {
+      setForm({ ...form, gender: value }); // Handle radio input
+    } else {
+      setForm({ ...form, [name]: value }); // Handel text input
+    }
   };
 
   const handleSubmit = (event) => {
@@ -31,7 +37,7 @@ function Register() {
     axios
       .post("/create", formdata)
       .then((res) => {
-        navigate("/employee");
+        navigate("/members");
         console.log(res);
       })
       .catch((err) => console.log(err));
@@ -86,23 +92,27 @@ function Register() {
               required
             />
           </div>
-          <div class="form-group-radio">
-            <div class="radio-group">
+          <div className="form-group-radio">
+            <div className="radio-group">
               <input
                 type="radio"
                 id="male"
                 name="gender"
                 value="male"
+                checked={form.gender === "male"}
+                onChange={handleChange}
                 required
               />
               <label htmlFor="male">Male</label>
             </div>
-            <div class="radio-group">
+            <div className="radio-group">
               <input
                 type="radio"
                 id="female"
                 name="gender"
                 value="female"
+                checked={form.gender === "female"}
+                onChange={handleChange}
                 required
               />
               <label htmlFor="female">Female</label>
@@ -114,7 +124,6 @@ function Register() {
               type="file"
               id="image"
               name="image"
-              value={form.image}
               onChange={handleChange}
               required
             />
