@@ -40,6 +40,23 @@
     font-size: 16px;
 }
 
+.form-group-radio {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.form-group-radio label {
+    margin-right: 10px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
 .submit-btn {
     width: 100%;
     padding: 10px;
@@ -62,5 +79,14 @@
 
     .form-group input {
     width: calc(100% - 16px);
+    }
+
+    .form-group-radio {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .radio-group {
+        margin-right: 20px;
     }
 }
