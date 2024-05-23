@@ -48,7 +48,7 @@
     text-align: center;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s;
-    width: 30vh;
+    /* width: 30vh; */
 }
 
 .team-member:hover {
@@ -59,8 +59,8 @@
 /* MemberPhoto styles */
 .member-photo {
     border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
     margin-bottom: 10px;
     margin: 0 auto;
@@ -70,10 +70,12 @@
 .member-name {
     margin: 10px 0 5px 0;
     color: #2c3e50;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 /* MemberRole styles */
 .member-role {
     font-size: 1em;
-    color: #7f8c8d;
+    color: #34495e;
 }

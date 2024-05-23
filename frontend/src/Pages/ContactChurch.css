@@ -12,6 +12,7 @@
     font-size: 2.5em;
     margin-bottom: 20px;
     color: #005ea2;
+    font-weight: bold;
 }
 
 .contact-info {
@@ -28,6 +29,7 @@
 .contact-details h2 {
     font-size: 1.2em;
     color: #005ea2;
+    font-weight: bold;
 }
 
 .contact-details p {
@@ -47,6 +49,7 @@
     font-size: 1.2em;
     margin-bottom: 10px;
     color: #005ea2;
+    font-weight: bold;
 }
 
 .contact-form label {
