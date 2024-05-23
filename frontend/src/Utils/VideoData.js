@@ -1,9 +1,9 @@
 import video1 from "../Assets/video1.png";
 import video2 from "../Assets/video2.png";
 import video3 from "../Assets/video3.png";
-import video4 from "../Assets/video4.png";
-import video5 from "../Assets/video5.png";
-import video6 from "../Assets/video6.png";
+import video4 from "../Assets/video-4.png";
+import video5 from "../Assets/video-5.png";
+import video6 from "../Assets/video-6.png";
 
 const VideoData = [
   {

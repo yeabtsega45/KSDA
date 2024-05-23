@@ -1,15 +1,15 @@
 import React from "react";
 import "./Hero.css";
-import img1 from "../Assets/frontpage.jpg";
+import church from "../Assets/church.jpeg";
 
 function Hero({ title }) {
   return (
     <div>
-      <img src={img1} className="image" alt="header_image" />
+      <img src={church} className="image" alt="header_image" />
       <div
         className="overlay"
         style={{
-          backgroundColor: "rgba(0, 0, 0, 0.5)",
+          backgroundColor: "rgba(0, 0, 0, 0.3)",
           // opacity: 0.5,
         }}
       >
