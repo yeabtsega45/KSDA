@@ -51,6 +51,7 @@ nav a {
     padding: 0 10px;
     text-decoration-line: none;
     transition: all 0.3s ease-in-out;
+    font-size: 1rem;
 }
 nav a:hover {
     color: #ffcc00;
