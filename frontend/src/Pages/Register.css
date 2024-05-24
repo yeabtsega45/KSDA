@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     margin: 0;
 }
 
@@ -18,7 +18,10 @@
 
 .form-container h2 {
     margin-bottom: 20px;
-    color: #333;
+    color: #005ea2;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
 }
 
 .form-group {
@@ -55,7 +58,6 @@
 .radio-group {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
 }
 
 .submit-btn {
@@ -67,6 +69,7 @@
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 5px;
 }
 
 .submit-btn:hover {
@@ -80,12 +83,6 @@
 
     .form-group input {
     width: calc(100% - 16px);
-    }
-
-    .form-group-radio {
-        flex-direction: row;
-        align-items: center;
-        flex-direction: column;
     }
 
     .radio-group {

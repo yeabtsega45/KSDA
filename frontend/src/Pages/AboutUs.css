@@ -12,14 +12,16 @@
 .head {
     font-size: 3em;
     margin: 20px 0;
-    color: #2c3e50;
+    color: #005ea2;
+    font-weight: bold;
 }
 
 /* SubHeader styles */
 .sub-header {
-    font-size: 2em;
+    font-size: 1.3em;
     margin: 10px 0;
-    color: #34495e;
+    color: #005ea2;
+    font-weight: bold;
 }
 
 /* Content styles */
