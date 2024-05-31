@@ -4,18 +4,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: transparent;
+    background: rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: bold;
-    height: 65px;
+    height: 75px;
     width: 100%;
     z-index: 1;
     padding: 0 24px;
     transition: background-color 0.3s, color 0.3s; /* Smooth transition when scrolled */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .navbar.scrolled {
     background-color: white;
-    color: black; /* Changes text color when scrolled */
+    color: #4a5568; /* Changes text color when scrolled */
 }
 .title {
     display: flex;
@@ -51,8 +52,14 @@ nav a:hover {
     color: #ffcc00;
     cursor: pointer;
 }
+.navbar.scrolled a:hover {
+    color: #005ea2;
+}
 nav a.active {
     color: #ffcc00;
+}
+.navbar.scrolled a.active {
+    color: #005ea2;
 }
 nav a button {
     background-color: white;
@@ -116,5 +123,9 @@ nav a button:hover {
         outline: none;
         top: 15px;
         right: 25px;
+    }
+    .navbar.scrolled.mobile-menu-icon {
+        color: #4a5568;
+        background-color: white;
     }
 }
