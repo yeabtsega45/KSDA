@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Register.css";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Hero from "../Components/Hero";
 
 function Register() {
   const [form, setForm] = useState({
@@ -47,96 +48,98 @@ function Register() {
   };
 
   return (
-    <div className="form-page">
-      <div className="form-container">
-        <h2>Register</h2>
-        <form onSubmit={handleSubmit}>
-          <div className="form-group">
-            <label htmlFor="name">Name</label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              value={form.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="email">Email</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              value={form.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="password">Password</label>
-            <input
-              type="password"
-              id="password"
-              name="password"
-              value={form.password}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="form-group">
-            <label htmlFor="address">Address</label>
-            <input
-              type="text"
-              id="address"
-              name="address"
-              value={form.address}
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <div className="form-group-radio">
-            <div className="radio-group">
+    <>
+      <Hero title="Register" />
+      <div className="form-page">
+        <div className="form-container">
+          <form onSubmit={handleSubmit}>
+            <div className="form-group">
+              <label htmlFor="name">Name</label>
               <input
-                type="radio"
-                id="male"
-                name="gender"
-                value="male"
-                checked={form.gender === "male"}
+                type="text"
+                id="name"
+                name="name"
+                value={form.name}
                 onChange={handleChange}
                 required
               />
-              <label htmlFor="male">Male</label>
             </div>
-            <div className="radio-group">
+            <div className="form-group">
+              <label htmlFor="email">Email</label>
               <input
-                type="radio"
-                id="female"
-                name="gender"
-                value="female"
-                checked={form.gender === "female"}
+                type="email"
+                id="email"
+                name="email"
+                value={form.email}
                 onChange={handleChange}
                 required
               />
-              <label htmlFor="female">Female</label>
             </div>
-          </div>
-          <div className="form-group">
-            <label htmlFor="image">Image</label>
-            <input
-              type="file"
-              id="image"
-              name="image"
-              onChange={handleChange}
-              required
-            />
-          </div>
-          <button type="submit" className="submit-btn">
-            Register
-          </button>
-        </form>
-      </div>
-    </div>
+            <div className="form-group">
+              <label htmlFor="password">Password</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                value={form.password}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="form-group">
+              <label htmlFor="address">Address</label>
+              <input
+                type="text"
+                id="address"
+                name="address"
+                value={form.address}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <div className="form-group-radio">
+              <div className="radio-group">
+                <input
+                  type="radio"
+                  id="male"
+                  name="gender"
+                  value="male"
+                  checked={form.gender === "male"}
+                  onChange={handleChange}
+                  required
+                />
+                <label htmlFor="male">Male</label>
+              </div>
+              <div className="radio-group">
+                <input
+                  type="radio"
+                  id="female"
+                  name="gender"
+                  value="female"
+                  checked={form.gender === "female"}
+                  onChange={handleChange}
+                  required
+                />
+                <label htmlFor="female">Female</label>
+              </div>
+            </div>
+            <div className="form-group">
+              <label htmlFor="image">Image</label>
+              <input
+                type="file"
+                id="image"
+                name="image"
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <button type="submit" className="submit-btn">
+              Register
+            </button>
+          </form>
+        </div>
+      </div>{" "}
+    </>
   );
 }
 
