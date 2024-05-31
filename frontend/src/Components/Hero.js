@@ -4,7 +4,7 @@ import church from "../Assets/church.jpeg";
 
 function Hero({ title }) {
   return (
-    <div>
+    <div className="hero">
       <img src={church} className="image" alt="header_image" />
       <div
         className="overlay"

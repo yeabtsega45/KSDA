@@ -40,7 +40,10 @@ function Register() {
         navigate("/members");
         console.log(res);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => {
+        console.log(err);
+        alert("you have registered successfully !");
+      });
   };
 
   return (
