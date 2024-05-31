@@ -5,11 +5,17 @@
     justify-content: space-between;
     align-items: center;
     background: transparent;
+    color: white;
     font-weight: bold;
     height: 65px;
     width: 100%;
     z-index: 1;
     padding: 0 24px;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition when scrolled */
+}
+.navbar.scrolled {
+    background-color: white;
+    color: black; /* Changes text color when scrolled */
 }
 .title {
     display: flex;
@@ -19,7 +25,6 @@
     width: 50%;
     align-items: center;
     font-size: 1em;
-    color: white;
     margin-top: 0px;
     padding-top: 15px;
 }
@@ -37,7 +42,6 @@ nav {
     width: 100%;
 }
 nav a {
-    color: white;
     padding: 0 6px;
     text-decoration-line: none;
     transition: all 0.3s ease-in-out;
@@ -55,10 +59,15 @@ nav a button {
     color: #005ea2;
     padding: 4px 20px;
     border-radius: 16px;
+    transition: all 0.3s ease-in-out;
 }
 nav a button:hover {
     background-color: lightblue;
     transition: all 0.3s ease-in-out;
+}
+.navbar.scrolled button {
+    background-color: #005ea2;
+    color: white;
 }
 .mobile-menu-icon {
     display: none;

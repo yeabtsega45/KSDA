@@ -26,8 +26,11 @@ function Navbar() {
     };
   }, []);
 
+  // Added logic to dynamically switch CSS classes
+  const navbarClasses = `navbar ${isScrolled ? "scrolled" : ""}`;
+
   return (
-    <div className="navbar">
+    <div className={navbarClasses}>
       <div className="title">
         <img src={logo} alt="logo" />
         <h2>
