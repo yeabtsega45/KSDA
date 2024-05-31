@@ -45,7 +45,6 @@ nav {
 nav a {
     padding: 0 6px;
     text-decoration-line: none;
-    transition: all 0.3s ease-in-out;
     font-size: 0.9em;
 }
 nav a:hover {
