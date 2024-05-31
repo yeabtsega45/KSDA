@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
@@ -8,6 +8,24 @@ import CloseIcon from "@material-ui/icons/Close";
 
 function Navbar() {
   const [show, setShow] = useState(true);
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      // Setting state based on scroll position
+      const isShow = window.scrollY > 50;
+      setIsScrolled(isShow);
+    };
+
+    // Adding scroll event listener
+    window.addEventListener("scroll", handleScroll);
+
+    // Clean up function
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="navbar">
       <div className="title">
